@@ -24,6 +24,7 @@ export const experienceData = [
       'Implementei integrações e pacotes para geração de relatórios automatizados.',
       'Desenvolvi scripts em Python para análise de dados e relatórios dinâmicos.',
       'Utilizei a linguagem R para auditorias e processamento estatístico dos dados.',
+      'Criar e dar manutenção em Gráficos utilizando Graph.js sobre as avaliaçãoes das secretárias, unidades e setores.'
     ],
   },
   {
