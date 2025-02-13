@@ -28,7 +28,8 @@ export const projectsData = [
 		id: 3,
 		title: 'Agendamento de Consultas e Exames',
 		category: 'Aplicação Mobile',
-		img: WebImage1,
+		img: WebImage2,
+
 	},
 
 ];

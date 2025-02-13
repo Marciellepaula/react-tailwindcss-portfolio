@@ -8,7 +8,6 @@ export const SingleProjectProvider = ({ children }) => {
     projectDataJson[0]
   );
 
-  console.log(projectDataJson, "erto");
   const handleProjectClick = (projectId) => {
     const selectedProject = projectDataJson.find(
       (project) => project.id === projectId

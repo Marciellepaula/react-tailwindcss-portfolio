@@ -1,10 +1,14 @@
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
-import Image3 from '../images/mobile-project-2.jpg';
+import Image1 from '../images/Calendar.png';
+import Image2 from '../images/LocalAtendimento.png';
+import Image3 from '../images/Screenshot_68.png';
 import Image4 from '../images/mobile-project-1.jpg';
 import Image5 from '../images/web-project-1.jpg';
-
-
+import Image6 from '../images/avaliacao.png';
+import Image7 from '../images/Screenshot_69.png';
+import Image8 from '../images/resumo.png';
+import Image9 from '../images/mobile-project-1.jpg';
+import Image10 from '../images/web-project-1.jpg';
+import Image11 from '../images/Screenshot_56.png'
 
 import {
   FiFacebook,
@@ -18,9 +22,9 @@ export const projectData = [
   {
     id: 1,
     ProjectHeader: {
-      title: "Aplicativo ExameMed: Agendamento de Consultas e Exames",
+      title: "ExameMed: Agendamento de Consultas e Exames",
       publishDate: "24 de Agosto, 2024",
-      tags: "Mobile / React Native",
+      tags: "Laravel / React.JS",
     },
     ProjectImages: [
       { id: 1, title: "UI Design", img: Image1 },
@@ -29,25 +33,21 @@ export const projectData = [
     ],
     ProjectInfo: {
       ClientHeading: "Sobre o Cliente",
-      CompanyInfo: [
-        { id: 1, title: "Nome", details: "Empresa Ltda" },
-        { id: 2, title: "Serviços", details: "Desenvolvimento Frontend" },
-        { id: 3, title: "Site", details: "https://company.com" },
-        { id: 4, title: "Telefone", details: "55 88 992988838" },
-      ],
+      // CompanyInfo: [
+      //   { id: 1, title: "Nome", details: "Empresa Ltda" },
+      //   { id: 2, title: "Serviços", details: "Desenvolvimento Frontend" },
+      //   { id: 3, title: "Site", details: "https://company.com" },
+      //   { id: 4, title: "Telefone", details: "55 88 992988838" },
+      // ],
       ObjectivesHeading: "Objetivo",
       ObjectivesDetails:
         "Facilitar o agendamento de consultas e exames médicos de forma rápida e intuitiva.",
       Technologies: [{ title: "Ferramentas & Tecnologias", techs: ["React Native"] }],
       ProjectDetailsHeading: "Desafio",
       ProjectDetails: [
-        { id: 1, details: "Desenvolvi um aplicativo completo para o agendamento de exames e consultas médicas, proporcionando uma experiência intuitiva e eficiente para os usuários. " },
-        { id: 2, details: " A plataforma conta com integração com o PagSeguro para pagamentos online, garantindo segurança e praticidade nas transações." },
-        { id: 3, details:  "Além disso, implementei funcionalidades avançadas, como: Cadastro de médicos e clínicas, permitindo que os usuários escolham profissionais e locais de atendimento." },
-        { id: 4, details: " Gestão de horários e disponibilidade, facilitando a marcação e o gerenciamento de consultas." },
-        { id: 5, details:  "Lembretes e notificações automáticas, para evitar esquecimentos e melhorar a pontualidade dos pacientes." },
-        { id: 6, details:   "Histórico de agendamentos e exames, permitindo fácil acesso a registros anteriores.Suporte para QR Code, possibilitando check-ins rápidos e acesso digital aos detalhes da consulta." },
-        { id: 7, details: "Integração com PagSeguro para pagamentos via Cartão de Crédito e Pix." },
+        { id: 1, details: "Desenvolvi e implementei a funcionalidade de cadastro de médicos em um aplicativo de agendamentos, permitindo que os usuários marquem consultas e escolham horários disponíveis. Além disso, integrei a gestão de locais de atendimento e agendamentos na plataforma web, garantindo uma experiência intuitiva e eficiente para pacientes e profissionais de saúde.." },
+        { id: 2, details: "Integração com APIs para agendamento em tempo real." },
+       
       ],
       SocialSharingHeading: "Compartilhe",
       SocialSharing: [
@@ -74,9 +74,9 @@ export const projectData = [
       tags: "Laravel / Bootstrap/ Jquery",
     },
     ProjectImages: [
-      { id: 1, title: "E-commerce UI", img: Image2 },
-      { id: 2, title: "Shopping Cart", img: Image5 },
-      { id: 3, title: "Shopping Cart", img: Image5 },
+      { id: 1, title: "E-commerce UI", img: Image6 },
+      { id: 2, title: "Shopping Cart", img: Image7 },
+      { id: 3, title: "Shopping Cart", img: Image11 },
     ],
     ProjectInfo: {
       ClientHeading: "Sobre o Cliente",
@@ -111,12 +111,13 @@ export const projectData = [
       ],
     },
   },
+
   {
     id: 3,
     ProjectHeader: {
-      title: "ExameMed: Agendamento de Consultas e Exames",
+      title: "Aplicativo ExameMed: Agendamento de Consultas e Exames",
       publishDate: "24 de Agosto, 2024",
-      tags: "Laravel / React.JS",
+      tags: "Mobile / React Native",
     },
     ProjectImages: [
       { id: 1, title: "UI Design", img: Image1 },
@@ -125,21 +126,25 @@ export const projectData = [
     ],
     ProjectInfo: {
       ClientHeading: "Sobre o Cliente",
-      // CompanyInfo: [
-      //   { id: 1, title: "Nome", details: "Empresa Ltda" },
-      //   { id: 2, title: "Serviços", details: "Desenvolvimento Frontend" },
-      //   { id: 3, title: "Site", details: "https://company.com" },
-      //   { id: 4, title: "Telefone", details: "55 88 992988838" },
-      // ],
+      CompanyInfo: [
+        { id: 1, title: "Nome", details: "Empresa Ltda" },
+        { id: 2, title: "Serviços", details: "Desenvolvimento Frontend" },
+        { id: 3, title: "Site", details: "https://company.com" },
+        { id: 4, title: "Telefone", details: "55 88 992988838" },
+      ],
       ObjectivesHeading: "Objetivo",
       ObjectivesDetails:
         "Facilitar o agendamento de consultas e exames médicos de forma rápida e intuitiva.",
       Technologies: [{ title: "Ferramentas & Tecnologias", techs: ["React Native"] }],
       ProjectDetailsHeading: "Desafio",
       ProjectDetails: [
-        { id: 1, details: "Desenvolvi e implementei a funcionalidade de cadastro de médicos em um aplicativo de agendamentos, permitindo que os usuários marquem consultas e escolham horários disponíveis. Além disso, integrei a gestão de locais de atendimento e agendamentos na plataforma web, garantindo uma experiência intuitiva e eficiente para pacientes e profissionais de saúde.." },
-        { id: 2, details: "Integração com APIs para agendamento em tempo real." },
-       
+        { id: 1, details: "Desenvolvi um aplicativo completo para o agendamento de exames e consultas médicas, proporcionando uma experiência intuitiva e eficiente para os usuários. " },
+        { id: 2, details: " A plataforma conta com integração com o PagSeguro para pagamentos online, garantindo segurança e praticidade nas transações." },
+        { id: 3, details:  "Além disso, implementei funcionalidades avançadas, como: Cadastro de médicos e clínicas, permitindo que os usuários escolham profissionais e locais de atendimento." },
+        { id: 4, details: " Gestão de horários e disponibilidade, facilitando a marcação e o gerenciamento de consultas." },
+        { id: 5, details:  "Lembretes e notificações automáticas, para evitar esquecimentos e melhorar a pontualidade dos pacientes." },
+        { id: 6, details:   "Histórico de agendamentos e exames, permitindo fácil acesso a registros anteriores.Suporte para QR Code, possibilitando check-ins rápidos e acesso digital aos detalhes da consulta." },
+        { id: 7, details: "Integração com PagSeguro para pagamentos via Cartão de Crédito e Pix." },
       ],
       SocialSharingHeading: "Compartilhe",
       SocialSharing: [
