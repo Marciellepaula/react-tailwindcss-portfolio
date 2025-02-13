@@ -94,7 +94,7 @@ export const projectData = [
       ProjectDetails: [
         { id: 1, details: "Fui responsável pela manutenção e Desenvolvimento de um sistema de Avaliações baseado em QR Code, desenvolvido com o framework Laravel e Bootstrap. O sistema permite a avaliação de postos de saúde, gerando relatórios detalhados com as notas atribuídas. Além da manutenção, atuei na integração de novos recursos e na utilização de pacotes especializados para a geração automatizada de relatórios, garantindo maior eficiência e precisão na análise dos dados." },
         { id: 2, details: "Garantir alta performance e escalabilidade." },
-        { id: 3, details: "Criar e dar manutenção em Gráficos utilizando Graph.js sobre as avaliaçãoes das secretárias, unidades e setores." },
+        { id: 3, details: "Criar e dar manutenção em Gráficos utilizando Charts.js sobre as avaliaçãoes das secretárias, unidades e setores." },
       ],
       SocialSharingHeading: "Compartilhe",
       SocialSharing: [
