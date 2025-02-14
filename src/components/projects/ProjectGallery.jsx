@@ -1,5 +1,3 @@
-import { useContext } from "react";
-
 const ProjectGallery = ({ projectImages }) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">

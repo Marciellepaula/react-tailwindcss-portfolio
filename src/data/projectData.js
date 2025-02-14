@@ -42,7 +42,7 @@ export const projectData = [
       ObjectivesHeading: "Objetivo",
       ObjectivesDetails:
         "Facilitar o agendamento de consultas e exames médicos de forma rápida e intuitiva.",
-      Technologies: [{ title: "Ferramentas & Tecnologias", techs: ["React Native"] }],
+      Technologies: [{ title: "Ferramentas & Tecnologias", techs: ["React.js"] }],
       ProjectDetailsHeading: "Desafio",
       ProjectDetails: [
         { id: 1, details: "Desenvolvi e implementei a funcionalidade de cadastro de médicos em um aplicativo de agendamentos, permitindo que os usuários marquem consultas e escolham horários disponíveis. Além disso, integrei a gestão de locais de atendimento e agendamentos na plataforma web, garantindo uma experiência intuitiva e eficiente para pacientes e profissionais de saúde.." },
