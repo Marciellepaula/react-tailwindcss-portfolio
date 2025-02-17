@@ -6,11 +6,11 @@ const ExperienceItem = React.memo(({ cargo, empresa, periodo, funcoes }) => {
       <h3 className="text-lg font-semibold text-primary-dark dark:text-primary-light">
         {cargo}
       </h3>
-      <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">
+      <p className="text-gray-600 dark:text-gray-400 text-sm mb-2 text-sm text-primary-dark dark:text-primary-light">
         {empresa} • {periodo}
       </p>
       {funcoes.length > 0 ? (
-        <ul className="list-disc pl-5 mt-2 text-gray-700 dark:text-gray-300 text-sm">
+        <ul className="list-disc pl-5 mt-2 text-gray-700 dark:text-gray-300 text-sm text-primary-dark dark:text-primary-light">
           {funcoes.map((funcao, index) => (
             <li key={index}>{funcao}</li>
           ))}

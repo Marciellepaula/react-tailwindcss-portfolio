@@ -6,10 +6,13 @@ const EducationItem = React.memo(({ curso, instituicao, conclusao }) => {
       <h3 className="text-lg font-semibold text-primary-dark dark:text-primary-light">
         {curso}
       </h3>
-      <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">
+      <p className="text-gray-600  text-sm mb-2 text-sm text-primary-dark dark:text-primary-light">
         {instituicao}
       </p>
-      <p> {conclusao}</p>
+      <p className="text-gray-600  text-sm mb-2 text-sm text-primary-dark dark:text-primary-light">
+        {" "}
+        {conclusao}
+      </p>
     </article>
   );
 });
