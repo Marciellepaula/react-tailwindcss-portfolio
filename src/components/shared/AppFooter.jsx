@@ -16,7 +16,7 @@ const socialLinks = [
   {
     id: 2,
     icon: <FiGithub />,
-    url: "https://github.com/realmarcelle",
+    url: "https://github.com/Marciellepaula",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const socialLinks = [
   {
     id: 4,
     icon: <FiLinkedin />,
-    url: "https://www.linkedin.com/in/realmarcelle",
+    url: "https://www.linkedin.com/in/marcielle-paula-2134b01bb/",
   },
   {
     id: 5,
