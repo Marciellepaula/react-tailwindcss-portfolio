@@ -1,4 +1,4 @@
-export const clientsHeading = 'Empresas que confiam no meu trabalho';
+export const clientsHeading = 'Esperiências';
 
 export const experienceData = [
   {
