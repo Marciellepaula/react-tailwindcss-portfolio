@@ -2,14 +2,9 @@ import { motion } from "framer-motion";
 import { FiX } from "react-icons/fi";
 import Button from "./reusable/Button";
 
-const selectOptions = [
-  "Web Application",
-  "Mobile Application",
-  "UI/UX Design",
-  "Branding",
-];
+const opcoesSelecao = ["Aplicação Web", "Aplicação Mobile"];
 
-const HireMeModal = ({ onClose, onRequest }) => {
+const ModalContratacao = ({ onClose, onRequest }) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -23,8 +18,8 @@ const HireMeModal = ({ onClose, onRequest }) => {
         <div className="modal-wrapper flex items-center z-30">
           <div className="modal max-w-md mx-5 xl:max-w-xl lg:max-w-xl md:max-w-xl bg-secondary-light dark:bg-primary-dark max-h-screen shadow-lg flex-row rounded-lg relative">
             <div className="modal-header flex justify-between gap-10 p-5 border-b border-ternary-light dark:border-ternary-dark">
-              <h5 className=" text-primary-dark dark:text-primary-light text-xl">
-                What project are you looking for?
+              <h5 className="text-primary-dark dark:text-primary-light text-xl">
+                Qual projeto você está procurando?
               </h5>
               <button
                 onClick={onClose}
@@ -47,8 +42,8 @@ const HireMeModal = ({ onClose, onRequest }) => {
                     name="name"
                     type="text"
                     required=""
-                    placeholder="Name"
-                    aria-label="Name"
+                    placeholder="Nome"
+                    aria-label="Nome"
                   />
                 </div>
                 <div className="mt-6">
@@ -58,8 +53,8 @@ const HireMeModal = ({ onClose, onRequest }) => {
                     name="email"
                     type="text"
                     required=""
-                    placeholder="Email"
-                    aria-label="Email"
+                    placeholder="E-mail"
+                    aria-label="E-mail"
                   />
                 </div>
                 <div className="mt-6">
@@ -69,11 +64,11 @@ const HireMeModal = ({ onClose, onRequest }) => {
                     name="subject"
                     type="text"
                     required=""
-                    aria-label="Project Category"
+                    aria-label="Categoria do Projeto"
                   >
-                    {selectOptions.map((option) => (
-                      <option className="text-normal sm:text-md" key={option}>
-                        {option}
+                    {opcoesSelecao.map((opcao) => (
+                      <option className="text-normal sm:text-md" key={opcao}>
+                        {opcao}
                       </option>
                     ))}
                   </select>
@@ -86,8 +81,8 @@ const HireMeModal = ({ onClose, onRequest }) => {
                     name="message"
                     cols="14"
                     rows="6"
-                    aria-label="Details"
-                    placeholder="Project description"
+                    aria-label="Detalhes"
+                    placeholder="Descrição do projeto"
                   ></textarea>
                 </div>
 
@@ -104,9 +99,9 @@ const HireMeModal = ({ onClose, onRequest }) => {
 											hover:bg-indigo-600
 											rounded-md
 											focus:ring-1 focus:ring-indigo-900 duration-500"
-                    aria-label="Submit Request"
+                    aria-label="Enviar Solicitação"
                   >
-                    <Button title="Send Request" />
+                    <Button title="Enviar Solicitação" />
                   </span>
                 </div>
               </form>
@@ -120,9 +115,9 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									py-2 bg-gray-600 text-primary-light hover:bg-ternary-dark dark:bg-gray-200 dark:text-secondary-dark dark:hover:bg-primary-light
 									rounded-md
 									focus:ring-1 focus:ring-indigo-900 duration-500"
-                aria-label="Close Modal"
+                aria-label="Fechar Modal"
               >
-                <Button title="Close" />
+                <Button title="Fechar" />
               </span>
             </div>
           </div>
@@ -132,4 +127,4 @@ const HireMeModal = ({ onClose, onRequest }) => {
   );
 };
 
-export default HireMeModal;
+export default ModalContratacao;
