@@ -5,9 +5,6 @@ import Image4 from '../images/mobile-project-1.jpg';
 import Image5 from '../images/web-project-1.jpg';
 import Image6 from '../images/avaliacao.png';
 import Image7 from '../images/Screenshot_69.png';
-import Image8 from '../images/resumo.png';
-import Image9 from '../images/mobile-project-1.jpg';
-import Image10 from '../images/web-project-1.jpg';
 import Image11 from '../images/Screenshot_56.png'
 
 import {
