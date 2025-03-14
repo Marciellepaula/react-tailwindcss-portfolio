@@ -1,7 +1,7 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: 'Sou uma desenvolvedora dedicada e apaixonada por tecnologia, sempre buscando soluções inovadoras e eficientes para otimizar sistemas e melhorar a experiência do usuário. Tenho experiência em desenvolvimento full stack, trabalhando tanto no backend quanto no frontend, garantindo a integração fluida entre diferentes serviços e tecnologias.',
+		bio: 'Me chamo Marcielle e sou uma desenvolvedora dedicada e apaixonada por tecnologia, sempre buscando soluções inovadoras e eficientes para otimizar sistemas e melhorar a experiência do usuário. Tenho experiência em desenvolvimento full stack, trabalhando tanto no backend quanto no frontend, garantindo a integração fluida entre diferentes serviços e tecnologias.',
 	},
 	{
 		id: 2,
