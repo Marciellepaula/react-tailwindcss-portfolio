@@ -23,7 +23,14 @@ module.exports = {
 					'2xl': '8rem',
 				},
 			},
+			gridTemplateColumns: {
+				'f1': 'repeat(1, minmax(0, 1fr))',
+				'f2': 'repeat(2, minmax(0, 1fr))',
+				'f3': 'repeat(3, minmax(0, 1fr))',
+				'f4': 'repeat(4, minmax(0, 1fr))',
+			  },
 		},
+
 	},
 	variants: {
 		extend: { opacity: ['disabled'] },
